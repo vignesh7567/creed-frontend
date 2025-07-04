@@ -9,7 +9,7 @@ import Component5 from './components/Component5'
 
 const B2b = () => {
   return (
-    <div className='p-[100px] flex flex-col mb-[200px]'>
+    <div className=' p-[20px] md:p-[100px] flex flex-col mb-[50px] md:mb-[200px]'>
       <div className=' w-full'>
         <img src={bg} alt='bg' />
       </div>

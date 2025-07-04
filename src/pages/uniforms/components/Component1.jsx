@@ -4,7 +4,7 @@ import uniform1 from '../../../assets/uniform/uniform1.png'
 
 const Component1 = () => {
   return (
-    <div className=' flex flex-col justify-between items-center md:items-start mt-[20px] md:mt-[100px] gap-6 md:gap-0'>
+    <div className=' flex flex-col md:flex-row justify-between items-center md:items-start mt-[20px] md:mt-[100px] gap-6 md:gap-0'>
         <div className=' md:w-[60%]'>
         <div className='text-[20px] md:text-[40px] font-[800] md:mb-[50px]'>Corporate Uniforms</div>
         <ul className=' list-disc pl-1 md:pl-5 text-[12px] md:text-[24px] font-[500] text-[rgba(0,0,0,0.7)]'>

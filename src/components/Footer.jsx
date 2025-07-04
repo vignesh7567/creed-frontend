@@ -44,7 +44,7 @@ const Footer = () => {
               suriaya@thecreed.me
             </div>
           </div>
-          <div className=' flex flex-col justify-start'>
+          {/* <div className=' flex flex-col justify-start'>
             <div className=' text-[12px] font-[500] pb-[20px] md:pb-[12px]'>Signup and get in touch with us</div>
             <input 
             type="email"
@@ -54,10 +54,10 @@ const Footer = () => {
             <div className=' mt-[20px]'>
               <button className=' bg-[rgba(212,50,61,1)] text-[16px] px-[70px] py-[8px] rounded cursor-pointer'>Subscribe</button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div>
+      <div className=' text-[12px]'>
         Powered By Katana <span>©</span>
       </div>
     </div>

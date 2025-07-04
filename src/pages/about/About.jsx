@@ -10,8 +10,8 @@ import Component7 from './Components/Component7'
 
 const About = () => {
   return (
-    <div className='bg-[linear-gradient(117.22deg,_#261945_0%,_#341B3E_51.34%,_#401D38_98.88%)] flex flex-col justify-center items-center px-[80px]'>
-      <div className=' text-[48px] font-[800] text-white mt-[40px] mb-[100px]'>About</div>
+    <div className='bg-[linear-gradient(117.22deg,_#261945_0%,_#341B3E_51.34%,_#401D38_98.88%)] flex flex-col justify-center items-center px-[20px] md:px-[80px]'>
+      <div className=' text-[20px] md:text-[48px] font-[800] text-white mt-[40px] mb-[40px] md:mb-[100px]'>About</div>
       <Component1 />
       <Component2 />
       <Component3 />

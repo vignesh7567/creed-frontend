@@ -7,7 +7,7 @@ import Component3 from './components/Compoent3'
 
 const Brand = () => {
   return (
-    <div className='p-[100px] flex flex-col mb-[200px]'>
+    <div className='p-[20px] md:p-[100px] flex flex-col mb-[50px] md:mb-[200px]'>
       <div className=' w-full'>
         <img src={bg} alt='bg' />
       </div>

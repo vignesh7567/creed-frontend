@@ -8,7 +8,7 @@ import Component4 from './components/Component4'
 
 const ExportsPage = () => {
   return (
-    <div className='p-[100px] flex flex-col mb-[100px]'>
+    <div className='p-[20px] md:p-[100px] flex flex-col mb-[100px]'>
       <div className=' w-full'>
         <img src={bg} alt='bg' />
       </div>

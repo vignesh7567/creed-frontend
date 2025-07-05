@@ -14,7 +14,7 @@ const products = [
 
 const OurProducts = () => {
   return (
-    <div id='products' className=' flex flex-col justify-center items-center pt-[109px] w-[80%]'>
+    <div id='products' className=' flex flex-col justify-center items-center pt-[109px] w-[85%]'>
       <div className=' text-[20px] md:text-[40px] font-[800] text-white mb-[26px] md:mb-[16px] tracking-widest text-center'>OUR PRODUCTS</div>
       <div className=' text-[12px] md:text-[20px] text-[rgba(255,255,255,0.7)] tracking-widest text-center'>Transforming your brand’s identity through meticulously designed custom uniforms. From professional chic to team spirit, we design the perfect attire for every setting.</div>
       <div className=' flex flex-wrap justify-center gap-[20px] mt-[52px] md:mt-[72px]' >

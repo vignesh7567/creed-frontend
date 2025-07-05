@@ -14,7 +14,7 @@ const Component1 = () => {
         </ul>
         </div>
         <div className=' md:w-[40%] flex justify-end'>
-        <img className=' w-[200px] md:w-[450px]' src={uniform1} alt='export1' />
+        <img className=' w-[200px] md:w-[450px]' src={uniform1} alt='export1' loading="lazy" />
         </div>
     </div>
   )

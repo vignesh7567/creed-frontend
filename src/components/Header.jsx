@@ -14,7 +14,7 @@ const Header = () => {
         <Link to='/about' className=' hover:text-red-400 transition-transform duration-200 hover:scale-105'>ABOUT</Link>
         <Link to='/#services' className=' hover:text-red-400 transition-transform duration-200 hover:scale-105' >OUR SERVICES</Link>
         <Link to='/#products' className=' hover:text-red-400 transition-transform duration-200 hover:scale-105' >PRODUCTS</Link>
-        <Link tosName=' hidden md:block hover:text-red-400 transition-transform duration-200 hover:scale-105' href='/#client' >OUR CLIENTS</Link>
+        <Link to='/#client' className=' hidden md:block hover:text-red-400 transition-transform duration-200 hover:scale-105' >OUR CLIENTS</Link>
         <Link to='/contact' className=' hover:text-red-400 transition-transform duration-200 hover:scale-105'>CONTACT US</Link>
       </div>
     </div>

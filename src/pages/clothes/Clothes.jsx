@@ -9,7 +9,7 @@ const Clothes = () => {
   return (
     <div className='p-[20px] md:p-[100px] flex flex-col mb-[50px] md:mb-[200px]'>
       <div className=' w-full'>
-        <img src={bg} alt='bg' />
+        <img src={bg} alt='bg' loading="lazy" />
       </div>
       <Component1 />
       <Component2 />

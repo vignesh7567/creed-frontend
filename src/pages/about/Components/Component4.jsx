@@ -10,7 +10,7 @@ const Component4 = () => {
         <div className=' text-[13px] md:text-[24px] md:font-[600] mb-[42px] md:mb-0'>To empower businesses through clothing that enhances performance, communicates brand identity, and contributes positively to people and the planet.</div>
       </div>
       <div className=' md:w-[50%] flex justify-end'>
-        <img className=' w-[613px]' src={mission} alt='mission' />
+        <img className=' w-[613px]' src={mission} alt='mission' loading="lazy" />
       </div>
     </div>
   )

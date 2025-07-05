@@ -17,7 +17,7 @@ const Component6 = () => {
         </ul>
       </div>
       <div>
-        <img className=' w-[467px]' src={economy} alt='economy' />
+        <img className=' w-[467px]' src={economy} alt='economy' loading="lazy" />
       </div>
     </div>
   )

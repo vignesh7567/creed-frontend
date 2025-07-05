@@ -6,7 +6,7 @@ const Component3 = () => {
   return (
     <div className=' flex justify-between items-center md:items-start mt-[20px] md:mt-[100px] gap-2'>
       <div className=' w-[50%] md:w-[40%] h-auto flex justify-center items-center'>
-        <img className=' w-[450px]' src={export2} alt='export1' />
+        <img className=' w-[450px]' src={export2} alt='export1' loading="lazy" />
       </div>
       <div className=' w-[50%] md:w-[60%]'>
         <div className='text-[20px] md:text-[40px] font-[800] mb-[10px] md:mb-[50px]'>Available Fabric Options:</div>

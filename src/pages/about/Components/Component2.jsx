@@ -17,7 +17,7 @@ const Component2 = () => {
         <div className=' text-[13px] md:text-[24px] font-[400] md:font-[600]'><span className=' font-[600]'>We work with a wide array of fabrics –</span> from cotton to poly-cotton blends – and offer advanced finishes such as anti-stain, anti-odor, UV protection, moisture-wicking, organic, and eco-friendly treatments.</div>
       </div>
       <div className=' flex justify-center items-center'>
-        <img className=' w-[359px] md:w-[475px]' src={service} about='service' />
+        <img className=' w-[359px] md:w-[475px]' src={service} about='service' loading="lazy" />
       </div>
     </div>
   )

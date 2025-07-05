@@ -53,7 +53,7 @@ const OurServices = () => {
       <div className=' flex flex-wrap justify-center items-stretch gap-[40px] sm:gap-[20px]'>
         {services.map(service => (
             <div key={service.id} className="bg-white rounded-lg shadow flex flex-col w-[400px] overflow-hidden text-center md:text-start border-[1px] border-[rgba(255,255,255,0.7)]">
-                <img src={service.image} alt={service.title} className="w-full object-contain" />
+                <img src={service.image} alt={service.title} className="w-full object-contain" loading="lazy" />
                 <div className="text-[20px] sm:text-[30px] font-[700] px-[10px] md:px-[20px] leading-7 pt-[13px] pb-[3px]">{service.title}</div>
                 <p className="mb-[62px] md:mb-[82px] text-[10px] md:text-[16px] px-[10px] md:px-[20px] text-[rgba(20,25,66,0.7)]">{service.description}</p>
                 <button onClick={()=>{navigate(service.reDireactLink)}} className="mt-auto mx-[10px] md:mx-[20px] mb-[10px] md:mb-[20px] text-[15px] md:text-[20px] font-[500] px-4 py-2 bg-[rgba(212,50,61,1)] border-1 border-[rgba(212,50,61,0.45)] hover:bg-white hover:text-red-600 hover:border-red-600 cursor-pointer text-white rounded">

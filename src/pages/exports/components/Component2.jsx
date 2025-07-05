@@ -15,7 +15,7 @@ const Component2 = () => {
         </ul>
       </div>
       <div className=' w-[40%] h-auto flex justify-center items-center'>
-        <img className=' w-[145px] md:w-[450px]' src={export1} alt='export1' />
+        <img className=' w-[145px] md:w-[450px]' src={export1} alt='export1' loading="lazy" />
       </div>
     </div>
   )

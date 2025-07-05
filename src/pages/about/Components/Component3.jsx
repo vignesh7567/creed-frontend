@@ -6,7 +6,7 @@ const Component3 = () => {
   return (
     <div className=' mt-[57px] md:mt-[150px] flex flex-col-reverse md:flex-row justify-between items-center text-white text-center md:text-start'>
       <div className=' md:w-[40%]'>
-        <img className=' w-[497px]' src={vision} alt='vision' />
+        <img className=' w-[497px]' src={vision} alt='vision' loading="lazy" />
       </div>
       <div className=' md:w-[60%]'>
         <div className=' font-[800] text-[20px] md:text-[32px] pb-[20px] md:pb-[52px]'>Our Vision</div>

@@ -14,15 +14,20 @@ const ImageContainer = () => {
   const [fade, setFade] = useState(true);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setFade(false); // Start fade out
-      setTimeout(() => {
-        setCurrent((prev) => (prev + 1) % images.length);
-        setFade(true); // Fade in new image
-      }, 500); // Duration of fade out
+    // Start fade out after 2.5s
+    const fadeOutTimeout = setTimeout(() => setFade(false), 2500);
+
+    // After fade out (0.5s), change image and fade in
+    const imageChangeTimeout = setTimeout(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+      setFade(true); // Fade in new image
     }, 3000);
-    return () => clearInterval(interval);
-  }, []);
+
+    return () => {
+      clearTimeout(fadeOutTimeout);
+      clearTimeout(imageChangeTimeout);
+    };
+  }, [current]);
 
   return (
     <div className=' text-white'>

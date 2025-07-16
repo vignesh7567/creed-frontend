@@ -5,6 +5,8 @@ import facebook from '../assets/facebook.png'
 import phone from '../assets/phone.png'
 import mail from '../assets/mail.png'
 
+import { Linkedin } from "lucide-react";
+
 const Footer = () => {
   return (
     <div className=' bg-[rgba(0,6,53,1)] text-white px-[20px] md:px-[96px] py-[30px] flex flex-col items-center gap-[79px]'>
@@ -17,8 +19,17 @@ const Footer = () => {
             <div className=' text-[12px] md:text-[20px] font-[400]'>Precision Manufacturing</div>
             <div className=' text-[12px] md:text-[20px] font-[400]'>Personalized Uniforms</div>
             <div className=' flex gap-[12px] md:gap-[20px]'>
-              <img src={instgram} alt='instagram logo' className=' w-[28px] md:w-[40px]'/>
-              <img src={facebook} alt='facebook logo' className=' w-[28px] md:w-[40px]' />
+              <a href="https://www.instagram.com/thecreed.me?igsh=MXNpOG51Mnp3d2l6ag%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                <img src={instgram} alt="instagram logo" className="w-[28px] md:w-[40px]" />
+              </a>
+              <a href="https://www.facebook.com/share/1C65JJNYrx/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+                <img src={facebook} alt="facebook logo" className="w-[28px] md:w-[40px]" />
+              </a>
+              <a href="https://www.linkedin.com/company/thecreed" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin w-[30px] md:w-[42px] h-[30px] md:h-[42px] text-gray-400"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              {/* <img src={instgram} alt='instagram logo' className=' w-[28px] md:w-[40px]'/>
+              <img src={facebook} alt='facebook logo' className=' w-[28px] md:w-[40px]' /> */}
             </div>
           </div>
           <div className=' flex flex-col'>

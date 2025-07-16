@@ -58,10 +58,10 @@ const ContactUsForm = () => {
         />
       </div>
       <div className=' flex flex-col gap-1 mb-[30px] md:mb-[40px]'>
-        <label className=' text-[13px] md:text-[16px] font-[500]'>Name</label>
+        <label className=' text-[13px] md:text-[16px] font-[500]'>Message</label>
         <textarea 
           type='text'
-          placeholder='Your name'
+          placeholder='Your Message'
           className=' text-[12px] md:text-[16px] bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] px-[20px] py-[10px] rounded w-[270px] md:w-[441px] text-white font-[400] min-h-[176px] resize-none'
           value={message}
           onChange={(e) => setMessage(e.target.value)}

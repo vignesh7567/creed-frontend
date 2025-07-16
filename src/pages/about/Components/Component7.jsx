@@ -11,7 +11,6 @@ const Component7 = () => {
       </div>
       <div className=' text-[13px] md:text-[24px] font-[600] mb-[10px] md:mb-[30px]'>Our sustainable practices aren’t an add-on — they’re embedded in everything we do.</div>
       <div className=' text-[13px] md:text-[24px] font-[600] mb-[10px] md:mb-[30px]'> At The Creed, we don't just manufacture garments — we build brands, empower teams, and promote responsible production. Let’s create clothing with purpose.</div>
-      <div className=' text-[13px] md:text-[24px] font-[600] mb-[10px] md:mb-[30px]'>Let me know if you also want this content broken down for sections like your website landing page, brochure, or investor presentation</div>
     </div>
   )
 }

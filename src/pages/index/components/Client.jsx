@@ -23,10 +23,18 @@ import client20 from '../../../assets/client/client20.jpg'
 import client21 from '../../../assets/client/client21.jpg'
 import client22 from '../../../assets/client/client22.jpg'
 import client23 from '../../../assets/client/client23.jpg'
+import client24 from '../../../assets/client/client24.png'
+import client25 from '../../../assets/client/client25.png'
+import client26 from '../../../assets/client/client26.png'
+import client27 from '../../../assets/client/client27.png'
+import client28 from '../../../assets/client/client28.png'
+import client29 from '../../../assets/client/client29.png'
+import client30 from '../../../assets/client/client30.png'
 
 const clients = [
   client1, client2, client3, client4, client5, client6, client7, client8, client9, client10, client11, client12,
-  client13, client14, client15, client16, client17, client18, client19, client20, client21, client22, client23
+  client13, client14, client15, client16, client17, client18, client19, client20, client21, client22, client23, client24,
+  client25, client26, client27, client28, client29, client30
 ]
 
 const Client = () => {
